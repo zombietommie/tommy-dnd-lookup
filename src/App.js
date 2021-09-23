@@ -10,7 +10,7 @@ function App() {
           <h2>Tommy's D&D Lookup</h2>
           <Menu mode="horizontal">
             Menu
-            <Menu.Item>Menu item</Menu.Item>
+            <Menu.Item>Menu item!</Menu.Item>
           </Menu>
         </Header>
         <Content>Apple sauce</Content>
