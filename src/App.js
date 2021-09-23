@@ -1,11 +1,13 @@
-import { Button } from "@mui/material";
 import "./App.css";
+import FrontPage from "./components/FrontPage";
 
 function App() {
     return (
         <div className="App">
             <h2>Tommy's D&D Lookup</h2>
-            <Button>Submit</Button>
+            <div>
+                <FrontPage />
+            </div>
         </div>
     );
 }
