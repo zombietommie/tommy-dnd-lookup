@@ -1,15 +1,16 @@
 import "./App.css";
 import FrontPage from "./components/FrontPage";
+import AcidArrow from "./acid-arrow.json";
 
-function App() {
+const App = () => {
     return (
         <div className="App">
             <h2>Tommy's D&D Lookup</h2>
             <div>
-                <FrontPage />
+                <FrontPage link={AcidArrow} />
             </div>
         </div>
     );
-}
+};
 
 export default App;
