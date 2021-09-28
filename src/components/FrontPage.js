@@ -3,8 +3,10 @@ const FrontPage = (props) => {
 
     console.log(display);
 
-    const { name, range, attack_type, casting_time, components, level } =
+    const { name, range, attack_type, casting_time, components, level, damage:{ damage_type} } =
         display;
+    const dmg_name = damage_type.name;
+
 
     return (
         <div>
@@ -14,6 +16,7 @@ const FrontPage = (props) => {
             <h3>casting time: {casting_time}</h3>
             <h3>components: {components}</h3>
             <h3>lever: {level}</h3>
+            <h3>damage name: {dmg_name}</h3>
         </div>
     );
 };
